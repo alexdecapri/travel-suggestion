@@ -35,6 +35,16 @@ app.service('questionService', function() {
     }
   ];
 
+  this.selectedCountries = [];
+
+  this.getCountry = function(region, budget, type) {
+    for (var i = 0; i < countries.length; i++) {
+      console.log('working?');
+    }
+  }
+
+
+
   //REST countries API https://restcountries.eu/
 
 });
