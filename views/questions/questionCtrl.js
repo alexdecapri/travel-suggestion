@@ -1,6 +1,6 @@
 var app = angular.module('travelApp');
 
-app.controller('questionCtrl', function($scope, q1Service, q2Service, q3Service) {
+app.controller('questionCtrl', function($scope, questionService) {
 
 
   $scope.testAnswer = function() {
