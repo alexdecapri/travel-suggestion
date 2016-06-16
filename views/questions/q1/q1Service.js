@@ -1,5 +1,6 @@
 var app = angular.module('travelApp');
 
-app.controller('q2Ctrl', function($scope) {
+app.service('q1Service', function() {
+
 
 });
