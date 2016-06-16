@@ -1,6 +1,6 @@
 var app = angular.module('travelApp');
 
-app.controller('homeCtrl', function($scope) {
+app.controller('homeCtrl', function($scope, $rootScope) {
 
   var colors = ['#FF4D63', '#3848AC', '#513584', '#9D4075', '#4D7AFF', '#875EEF', '#525561'];
 

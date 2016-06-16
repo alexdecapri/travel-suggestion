@@ -2,12 +2,12 @@
 
   <h2>Q1 Page</h2>
   What general area of the world interests you the most?<br />
-  <button ng-click="q1Answer = 'Americas'">The Americas</button>
+  <button ng-click="$root.q1Answer = 'Americas'">The Americas</button>
   <button ui-sref="q2">Asia</button>
   <button ui-sref="q2">Africa</button>
   <button ui-sref="q2">Western or Eastern Europe</button>
 
-  {{q1Answer}}
+  {{$root.q1Answer}}
 
 
 </div>
