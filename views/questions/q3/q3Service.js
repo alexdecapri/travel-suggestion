@@ -1,5 +1,5 @@
 var app = angular.module('travelApp');
 
-app.service('q2Service', function() {
+app.service('q3Service', function() {
 
 });
