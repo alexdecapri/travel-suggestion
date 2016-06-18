@@ -1,9 +1,12 @@
 <div class="question-text">
   <h2>Final Page</h2>
-  {{$root.q1Answer}} {{$root.q2Answer}} {{$root.q3Answer}} </br>
   You should visit: {{countryToDisplay}}!<br />
-  <!-- Information about {{chosenCountry}}:<br />
+  Information about {{countryToDisplay}}:<br />
   <ul>
-    <li></li>
-  </ul> -->
+    <li>Capital City: {{details.capital}}</li>
+    <li>Region: {{details.region}}</li>
+    <li>Subregion: {{details.subregion}}</li>
+    <li>Time Zone: {{details.timezone}}</li>
+    <li>Population: {{details.population}}</li>
+  </ul>
 </div>
