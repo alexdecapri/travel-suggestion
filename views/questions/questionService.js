@@ -35,20 +35,21 @@ app.service('questionService', function($log, $q) {
     }
   ];
 
-  this.getCountry = function(region, budget, type) {
-    for (var i = 0; i < countries.length; i++) {
-      $log.log(i)
-    }
-  }
+  // this.getCountry = function(region, budget, type) {
+  //   for (var i = 0; i < countries.length; i++) {
+  //     $log.log(i)
+  //   }
+  // }
 
-  this.buildCountries = function(region, budget, type, countries){
-      countries = _.where(countriesList, {region: region, budget: budget, type: type});
-      return {
-        region: region,
-        budget: budget,
-        type: type,
-        countries: countries
-      }
+  this.buildCountries = function(region, budget, type){
+      var countries = _.where(countriesList, {region: region, budget: budget, type: type});
+      return countries;
+      // return {
+      //   region: region,
+      //   budget: budget,
+      //   type: type,
+      //   countries: countries
+      // }
   }
 
 
