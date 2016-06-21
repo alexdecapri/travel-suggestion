@@ -12,15 +12,16 @@ app.controller('finalCtrl', function($scope, $rootScope, questionService, finalS
   $scope.fetchInfo = function() {
     finalService.getCountryInfo(name)
     .then(function(response) {
-      console.log('fetchInfo response:', response);
-      $scope.details = response;
+      console.log('fetchInfo response:', response.data[0]);
+      $scope.details = response.data[0];
     }).catch(function(err) {
       console.log(err);
     });
   }
+
   $scope.fetchInfo();
 
-  console.log('info', $scope.details);
+  // console.log('info', $scope.details);
 
 
 
