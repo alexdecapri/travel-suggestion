@@ -7,7 +7,7 @@ app.service('finalService', function($http, $q) {
     var dfd = $q.defer();
     $http({
       method: 'GET',
-      url: 'http://restcountries.eu/rest/v1/name/' + name,
+      url: 'https://restcountries.eu/rest/v1/name/' + name,
     }).then(function(response) {
       dfd.resolve(response);
       // console.log(response.data);
