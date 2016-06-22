@@ -10,6 +10,7 @@ app.controller('homeCtrl', function($scope, $rootScope) {
   var changeColor = function() {
     console.log(randomColor);
     pageColor.style.backgroundColor = randomColor;
+    pageColor.style.color = randomColor;
     console.log("got here");
   };
 
