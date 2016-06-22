@@ -23,7 +23,9 @@ h2 {
   margin-bottom: 12px;
   position: relative; }
   .question-text ul {
-    display: inline-block;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    padding-left: 0px;
     font-size: 17px;
     list-style-type: none; }
 
