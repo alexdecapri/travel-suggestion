@@ -1,6 +1,8 @@
 var app = angular.module('travelApp');
 
-app.controller('finalCtrl', function($scope, $rootScope, questionService, finalService) {
+app.controller('finalCtrl', function($scope, $rootScope, questionService, finalService, colorService) {
+
+  var invokeColors = colorService.changeColor();
 
   // console.log($rootScope.q1Answer, $rootScope.q2Answer, $rootScope.q3Answer);
 
@@ -18,16 +20,8 @@ app.controller('finalCtrl', function($scope, $rootScope, questionService, finalS
       console.log(err);
     });
   }
-
   $scope.fetchInfo();
 
-  // console.log('info', $scope.details);
-
-
-
-  // $scope.fetchInfo = finalService.getCountryInfo($scope.countryToDisplay);
-
-  // console.log($scope.fetchInfo);
 
 
 

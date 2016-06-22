@@ -1,6 +1,6 @@
 var app = angular.module('travelApp');
 
-app.service('questionService', function($log, $q) {
+app.service('questionService', function($q) {
 
   var countriesList = [
     {
@@ -35,11 +35,6 @@ app.service('questionService', function($log, $q) {
     }
   ];
 
-  // this.getCountry = function(region, budget, type) {
-  //   for (var i = 0; i < countries.length; i++) {
-  //     $log.log(i)
-  //   }
-  // }
 
   this.buildCountries = function(region, budget, type){
       var countries = _.where(countriesList, {region: region, budget: budget, type: type});
@@ -54,6 +49,6 @@ app.service('questionService', function($log, $q) {
 
 
 
-  //REST countries API https://restcountries.eu/
+
 
 });
