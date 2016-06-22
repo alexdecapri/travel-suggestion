@@ -1,7 +1,7 @@
 var app = angular.module('travelApp');
 
-app.controller('homeCtrl', function($scope, $rootScope, colorService) {
+app.controller('homeCtrl', function($scope, $rootScope) {
 
-  var invokeColors = colorService.changeColor();
+  // var invokeColors = colorService.changeColor();
 
 });

@@ -1,8 +1,8 @@
 var app = angular.module('travelApp');
 
-app.controller('finalCtrl', function($scope, $rootScope, questionService, finalService, colorService) {
+app.controller('finalCtrl', function($scope, $rootScope, questionService, finalService) {
 
-  var invokeColors = colorService.changeColor();
+  // var invokeColors = colorService.changeColor();
 
   // console.log($rootScope.q1Answer, $rootScope.q2Answer, $rootScope.q3Answer);
 
