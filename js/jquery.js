@@ -3,7 +3,7 @@
 $(document).ready(function() {
 
   changeColor();
-  $('body').on('click', changeColor);
+  $('.btn-primary').on('click', changeColor);
 
   function changeColor() {
     var randomColor = colors[Math.floor(Math.random() * colors.length)];
