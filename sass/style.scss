@@ -14,6 +14,10 @@ body, html {
 
 }
 
+h2 {
+  margin-bottom: 20px;
+}
+
 .navbar {
   background-color: white;
   border-radius: 2px;
@@ -36,6 +40,7 @@ body, html {
   margin-bottom: 12px;
   position: relative;
   ul {
+    display: inline-block;
     font-size: 17px;
     list-style-type: none;
   }
@@ -45,10 +50,11 @@ body, html {
   outline: none !important;
   font-size: 17px;
   background-color: red;
-}
-
-.btn-primary:hover {
-  opacity: 0.75;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  &:hover {
+    opacity: 0.75;
+  }
 }
 
 .list-group {
