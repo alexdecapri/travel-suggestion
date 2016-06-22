@@ -23,7 +23,8 @@ body, html {
 
 .btn-primary {
   outline: none !important;
-  font-size: 17px; }
+  font-size: 17px;
+  background-color: red; }
 
 .btn-primary:hover {
   opacity: 0.75; }
