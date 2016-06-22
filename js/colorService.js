@@ -9,7 +9,8 @@ app.service('colorService', function() {
     var btn = document.getElementsByClassName('btn-primary');
     page.style.backgroundColor = randomColor;
     page.style.color = randomColor;
-    document.getElementsByClassName("btn btn-primary").style.backgroundColor = randomColor;
+    console.log(btn);
+    // document.getElementsByClassName("btn btn-primary").style.backgroundColor = randomColor;
   }
 
 });

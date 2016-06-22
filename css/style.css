@@ -27,3 +27,6 @@ body, html {
 
 .btn-primary:hover {
   opacity: 0.75; }
+
+.list-group {
+  font-size: 17px; }
