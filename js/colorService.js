@@ -8,6 +8,6 @@ app.service('colorService', function() {
     var pageColor = document.body;
     pageColor.style.backgroundColor = randomColor;
     pageColor.style.color = randomColor;
-  };
+  }
 
 });
