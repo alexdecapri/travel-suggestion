@@ -3,7 +3,7 @@ var app = angular.module('travelApp');
 app.service('finalService', function($http, $q) {
 
   this.getCountryInfo = function(name) {
-    console.log('NAME IN SERVICE', name);
+    // console.log('NAME IN SERVICE', name);
     var dfd = $q.defer();
     $http({
       method: 'GET',

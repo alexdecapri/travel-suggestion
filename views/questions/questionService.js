@@ -240,14 +240,21 @@ app.service('questionService', function($q) {
       type: 'geography'
     },
     {
-      name: '',
-      region: '',
-      budget: '',
-      type: ''
+      name: 'Israel',
+      region: 'asia',
+      budget: 'high',
+      type: 'food'
     },
     {
+      name: 'Saudi Arabia',
+      region: 'asia',
+      budget: 'high',
+      type: 'food'
+    },
+    // Africa
+    {
       name: '',
-      region: '',
+      region: 'africa',
       budget: '',
       type: ''
     },
