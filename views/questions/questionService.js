@@ -356,82 +356,124 @@ app.service('questionService', function($q) {
     },
     // Europe
     {
-      name: '',
+      name: 'Germany',
       region: 'europe',
-      budget: '',
-      type: ''
+      budget: 'high',
+      type: 'history'
     },
     {
-      name: '',
+      name: 'United Kingdom',
       region: 'europe',
-      budget: '',
-      type: ''
+      budget: 'high',
+      type: 'history'
     },
     {
-      name: '',
+      name: 'France',
       region: 'europe',
-      budget: '',
-      type: ''
+      budget: 'high',
+      type: 'food'
     },
     {
-      name: '',
+      name: 'Spain',
       region: 'europe',
-      budget: '',
-      type: ''
+      budget: 'high',
+      type: 'food'
     },
     {
-      name: '',
+      name: 'Italy',
       region: 'europe',
-      budget: '',
-      type: ''
+      budget: 'high',
+      type: 'food'
     },
     {
-      name: '',
+      name: 'Portugal',
       region: 'europe',
-      budget: '',
-      type: ''
+      budget: 'high',
+      type: 'geography'
     },
     {
-      name: '',
+      name: 'Croatia',
       region: 'europe',
-      budget: '',
-      type: ''
+      budget: 'medium',
+      type: 'geography'
     },
     {
-      name: '',
+      name: 'Serbia',
       region: 'europe',
-      budget: '',
-      type: ''
+      budget: 'low',
+      type: 'food'
     },
     {
-      name: '',
+      name: 'Iceland',
       region: 'europe',
-      budget: '',
-      type: ''
+      budget: 'medium',
+      type: 'geography'
     },
     {
-      name: '',
+      name: 'Malta',
       region: 'europe',
-      budget: '',
-      type: ''
+      budget: 'low',
+      type: 'geography'
     },
     {
-      name: '',
+      name: 'Slovenia',
       region: 'europe',
-      budget: '',
-      type: ''
+      budget: 'low',
+      type: 'food'
     },
     {
-      name: '',
+      name: 'Latvia',
       region: 'europe',
-      budget: '',
-      type: ''
+      budget: 'low',
+      type: 'history'
     },
     {
-      name: '',
+      name: 'Belarus',
       region: 'europe',
-      budget: '',
-      type: ''
+      budget: 'low',
+      type: 'history'
+    },
+    {
+      name: 'Czech Republic',
+      region: 'europe',
+      budget: 'medium',
+      type: 'history'
+    },
+    {
+      name: 'Greece',
+      region: 'europe',
+      budget: 'medium',
+      type: 'geography'
+    },
+    {
+      name: 'Ireland',
+      region: 'europe',
+      budget: 'medium',
+      type: 'geography'
+    },
+    {
+      name: 'Romania',
+      region: 'europe',
+      budget: 'medium',
+      type: 'food'
+    },
+    {
+      name: 'Bulgaria',
+      region: 'europe',
+      budget: 'medium',
+      type: 'food'
+    },
+    {
+      name: 'Estonia',
+      region: 'europe',
+      budget: 'medium',
+      type: 'history'
+    },
+    {
+      name: 'Moldova',
+      region: 'europe',
+      budget: 'medium',
+      type: 'geography'
     }
 
 
