@@ -40,3 +40,9 @@ h2 {
 
 .list-group {
   font-size: 17px; }
+
+@media (max-width: 484px) {
+  .btn-primary {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px; } }
