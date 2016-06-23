@@ -5,12 +5,6 @@ app.service('questionService', function($q) {
   var countriesList = [
     // americas
     {
-      name: 'United States',
-      region: 'americas',
-      budget: 'medium',
-      type: 'geography'
-    },
-    {
       name: 'Canada',
       region: 'americas',
       budget: 'high',
@@ -89,7 +83,7 @@ app.service('questionService', function($q) {
       type: 'geography'
     },
     {
-      name: 'Sant Lucia',
+      name: 'Saint Lucia',
       region: 'americas',
       budget: 'medium',
       type: 'history'
