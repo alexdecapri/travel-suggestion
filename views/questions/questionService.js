@@ -253,11 +253,187 @@ app.service('questionService', function($q) {
     },
     // Africa
     {
-      name: '',
+      name: 'Nigeria',
       region: 'africa',
+      budget: 'high',
+      type: 'history'
+    },
+    {
+      name: 'Egypt',
+      region: 'africa',
+      budget: 'high',
+      type: 'geography'
+    },
+    {
+      name: 'South Africa',
+      region: 'africa',
+      budget: 'high',
+      type: 'geography'
+    },
+    {
+      name: 'Algeria',
+      region: 'africa',
+      budget: 'high',
+      type: 'history'
+    },
+    {
+      name: 'Morocco',
+      region: 'africa',
+      budget: 'medium',
+      type: 'history'
+    },
+    {
+      name: 'Angola',
+      region: 'africa',
+      budget: 'medium',
+      type: 'food'
+    },
+    {
+      name: 'Ethiopia',
+      region: 'africa',
+      budget: 'medium',
+      type: 'food'
+    },
+    {
+      name: 'Kenya',
+      region: 'africa',
+      budget: 'medium',
+      type: 'geography'
+    },
+    {
+      name: 'Uganda',
+      region: 'africa',
+      budget: 'medium',
+      type: 'geography'
+    },
+    {
+      name: 'Botswana',
+      region: 'africa',
+      budget: 'low',
+      type: 'history'
+    },
+    {
+      name: 'Madagascar',
+      region: 'africa',
+      budget: 'high',
+      type: 'geography'
+    },
+    {
+      name: 'Gabon',
+      region: 'africa',
+      budget: 'low',
+      type: 'history'
+    },
+    {
+      name: 'Chad',
+      region: 'africa',
+      budget: 'low',
+      type: 'geography'
+    },
+    {
+      name: 'Mali',
+      region: 'africa',
+      budget: 'low',
+      type: 'food'
+    },
+    {
+      name: 'Rwanda',
+      region: 'africa',
+      budget: 'low',
+      type: 'history'
+    },
+    {
+      name: 'Togo',
+      region: 'africa',
+      budget: 'low',
+      type: 'food'
+    },
+    {
+      name: 'Ivory Coast',
+      region: 'africa',
+      budget: 'high',
+      type: 'food'
+    },
+    // Europe
+    {
+      name: '',
+      region: 'europe',
       budget: '',
       type: ''
     },
+    {
+      name: '',
+      region: 'europe',
+      budget: '',
+      type: ''
+    },
+    {
+      name: '',
+      region: 'europe',
+      budget: '',
+      type: ''
+    },
+    {
+      name: '',
+      region: 'europe',
+      budget: '',
+      type: ''
+    },
+    {
+      name: '',
+      region: 'europe',
+      budget: '',
+      type: ''
+    },
+    {
+      name: '',
+      region: 'europe',
+      budget: '',
+      type: ''
+    },
+    {
+      name: '',
+      region: 'europe',
+      budget: '',
+      type: ''
+    },
+    {
+      name: '',
+      region: 'europe',
+      budget: '',
+      type: ''
+    },
+    {
+      name: '',
+      region: 'europe',
+      budget: '',
+      type: ''
+    },
+    {
+      name: '',
+      region: 'europe',
+      budget: '',
+      type: ''
+    },
+    {
+      name: '',
+      region: 'europe',
+      budget: '',
+      type: ''
+    },
+    {
+      name: '',
+      region: 'europe',
+      budget: '',
+      type: ''
+    },
+    {
+      name: '',
+      region: 'europe',
+      budget: '',
+      type: ''
+    }
+
 
   ];
 
